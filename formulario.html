@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--Formulário-->
+    <h1>Formulário</h1>
+    <hr>
+
+    <form id="form" action="">
+    <h2>Informações pessoais</h2>
+        <label for="nome">Nome:</label> 
+        <input id="nome" required type="text" placeholder="Digite seu nome">
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" required type="email" placeholder="Digite seu email aqui">
+
+        <br>
+        <br>
+        
+    <h2>Perguntas</h2>
+        <br>
+
+        <h3>Qual é o seu álbum favorito do Amom Amarth ?</h3>
+        
+
+
+            <input required id="berserker" type="radio" name="album" value="Berserker">
+            <label for="berserker"><img width= "100" src="img/Album2.jpg" alt=""></label>
+
+            <input required type = "radio" id="Twilight" name="album" value="Twilight of the Thunder God">
+            <label for="Twilight"><img width="88"src="img/Album.jpg" alt=""></label>
+
+            <input required type="radio" name="album" id="Jomsviking" value="Jomsviking">
+            <label for="Jomsviking"><img width="90" src="img/Jomsviking.jpg" alt=""></label>
+
+            <input type="radio" name="album" value="Versus the World" id="versus">
+            <label for="versus"><img width="90"src="img/VersusTheWorldjpg.jpg" alt=""></label>
+
+            <br>
+            <br>
+
+        <h3>Dentre essas, quais músicas são suas favoritas ?</h3>
+
+            <input required type="checkbox" name="musica1" id="twilight" value="Twilight of the thunder god">
+            <label for="twilight">Twilight of the thunder god</label>
+
+            <br>
+
+            <input required type="checkbox" id="heidrun" name="musica2" value="Heidrun">
+            <label for="heidrun">Heidrun</label>
+
+            <br>
+
+            <input required type="checkbox" name="musica3" id="Put" value="Put your back into the oar">
+            <label for="Put">Put your back into the oar</label>
+
+            <br> 
+
+            <input required type="checkbox" name="musica4" id="destroyer" value="Destroyer of the universe">
+            <label for="destroyer">Destroyer of the universe</label>
+
+            <br>
+
+            <input required type="checkbox" name="musica5" id="at" value="At dawn's first light">
+            <label for="At">At dawn's first light</label>
+
+            <br>
+
+            <input required type="checkbox" name="musica6" id="arrow" value="One thousand burning arrows">
+            <label for="arrow">One thousand burning arrows</label>
+
+            <br>
+
+        <h3>Qual seu gênero de rock favorito ?</h3>
+
+            <select required name="genero" id="genero">
+                
+                <option disabled selected value="">Selecione uma opção</option>
+
+                <option value="Clássico">Clássico</option>
+                <option value="Metal">Metal</option>
+                <option value="Hard rock">Hard rock</option>
+                <option value="Grunge">Grunge</option>
+                <option value="Indie">Indie rock</option>
+                <option value="Progressivo">Rock progressivo</option>
+                <option value="Punk">Punk</option>
+                <option value="Outro">Outro</option>
+
+                
+            </select>
+
+    
+        <h3>Curte mais alguma banda ?</h3>
+    
+    <input type="text" name="" placeholder="Digite o nome da banda" id="banda">
+        
+        
+
+
+
+    </form>
+
+    <br>
+
+    <button type="submit" form="form" value="submit">Enviar respostas</button>
+
+
+
+
+
+
+    <!--Tags de links-->
+    <hr>
+    <a href="https://github.com/mikbhr" target="_blank">Github do criador</a>
+    <br>
+    <a href="paginaPrincipal/index.html">Voltar à página inicial</a>
+    <br>
+    <a href="formacaoBanda.html">Formação da banda</a>
+    <br>
+    <a href="criador.html">Sobre mim</a>
+    <hr>
+
+</body>
+</html>
