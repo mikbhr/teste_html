@@ -9,106 +9,135 @@
 </head>
 
 <body>
-    <!--Formulário-->
-    <h1>Formulário</h1>
-    <hr>
+    <header>
+        <!--Formulário-->
+        <h1><img src="img/viking-helmet.png" alt="" width="20"> Formulário</h1>
 
-    <form id="form" action="">
-        <h2>Informações pessoais</h2>
-        <label for="nome">Nome:</label>
-        <input id="nome" required type="text" placeholder="Digite seu nome">
+        <nav>
+            <!--Tags de links-->
+            <hr align="center" color="black" size="3">
 
-        <br>
-        <br>
+            <ul>
+                <li><a href="https://github.com/mikbhr" target="_blank">Github do criador</a></li>
 
-        <label for="email">Email:</label>
-        <input id="email" required type="email" placeholder="Digite seu email aqui">
+                &nbsp;
 
-        <br>
-        <br>
+                <li><a href="paginaPrincipal/index.html">Voltar à página inicial</a></li>
 
-        <h2>Perguntas</h2>
-        <br>
+                &nbsp;
 
-        <h3>Qual é o seu álbum favorito do Amom Amarth ?</h3>
+                <li><a href="formacaoBanda.html">Formação da banda</a></li>
 
+                &nbsp;
 
+                <li><a href="criador.html">Sobre mim</a></li>
+            </ul>
+            <hr align="center" color="black" size="3">
+        </nav>
 
-        <input required id="berserker" type="radio" name="album" value="Berserker">
-        <label for="berserker"><img width="100" src="img/Album2.jpg" alt=""></label>
+    </header>
 
-        <input required type="radio" id="Twilight" name="album" value="Twilight of the Thunder God">
-        <label for="Twilight"><img width="88" src="img/Album.jpg" alt=""></label>
+    <section>
 
-        <input required type="radio" name="album" id="Jomsviking" value="Jomsviking">
-        <label for="Jomsviking"><img width="90" src="img/Jomsviking.jpg" alt=""></label>
+        <form id="form" action="">
 
-        <input type="radio" name="album" value="Versus the World" id="versus">
-        <label for="versus"><img width="90" src="img/VersusTheWorldjpg.jpg" alt=""></label>
+            <fieldset>
+                <legend>Perguntas do formulário</legend>
+                <h2>Informações pessoais</h2>
+                <label for="nome">Nome:</label>
+                <input id="nome" required type="text" placeholder="Digite seu nome">
 
-        <br>
-        <br>
+                <br>
+                <br>
 
-        <h3>Dentre essas, quais músicas são suas favoritas ?</h3>
+                <label for="email">Email:</label>
+                <input id="email" required type="email" placeholder="Digite seu email aqui">
 
-        <input required type="checkbox" name="musica1" id="twilight" value="Twilight of the thunder god">
-        <label for="twilight">Twilight of the thunder god</label>
+                <br>
+                <br>
 
-        <br>
-
-        <input required type="checkbox" id="heidrun" name="musica2" value="Heidrun">
-        <label for="heidrun">Heidrun</label>
-
-        <br>
-
-        <input required type="checkbox" name="musica3" id="Put" value="Put your back into the oar">
-        <label for="Put">Put your back into the oar</label>
-
-        <br>
-
-        <input required type="checkbox" name="musica4" id="destroyer" value="Destroyer of the universe">
-        <label for="destroyer">Destroyer of the universe</label>
-
-        <br>
-
-        <input required type="checkbox" name="musica5" id="at" value="At dawn's first light">
-        <label for="At">At dawn's first light</label>
-
-        <br>
-
-        <input required type="checkbox" name="musica6" id="arrow" value="One thousand burning arrows">
-        <label for="arrow">One thousand burning arrows</label>
-
-        <br>
-
-        <h3>Qual seu gênero de rock favorito ?</h3>
-
-        <select required name="genero" id="genero">
-
-            <option disabled selected value="">Selecione uma opção</option>
-
-            <option value="Clássico">Clássico</option>
-            <option value="Metal">Metal</option>
-            <option value="Hard rock">Hard rock</option>
-            <option value="Grunge">Grunge</option>
-            <option value="Indie">Indie rock</option>
-            <option value="Progressivo">Rock progressivo</option>
-            <option value="Punk">Punk</option>
-            <option value="Outro">Outro</option>
+                <h3>Qual é o seu álbum favorito do Amom Amarth ?</h3>
 
 
-        </select>
+                <input required id="berserker" type="radio" name="album" value="Berserker">
+                <label for="berserker"><img width="100" src="img/Album2.jpg" alt=""></label>
+
+                <input required type="radio" id="Twilight" name="album" value="Twilight of the Thunder God">
+                <label for="Twilight"><img width="88" src="img/Album.jpg" alt=""></label>
+
+                <input required type="radio" name="album" id="Jomsviking" value="Jomsviking">
+                <label for="Jomsviking"><img width="90" src="img/Jomsviking.jpg" alt=""></label>
+
+                <input type="radio" name="album" value="Versus the World" id="versus">
+                <label for="versus"><img width="90" src="img/VersusTheWorldjpg.jpg" alt=""></label>
 
 
-        <h3>Curte mais alguma banda ?</h3>
+                <br>
+                <br>
 
-        <input type="text" name="" placeholder="Digite o nome da banda" id="banda">
+                <h3>Dentre essas, quais músicas são suas favoritas ?</h3>
+
+                <input required type="checkbox" name="musica1" id="twilight" value="Twilight of the thunder god">
+                <label for="twilight">Twilight of the thunder god</label>
+
+                <br>
+
+                <input required type="checkbox" id="heidrun" name="musica2" value="Heidrun">
+                <label for="heidrun">Heidrun</label>
+
+                <br>
+
+                <input required type="checkbox" name="musica3" id="Put" value="Put your back into the oar">
+                <label for="Put">Put your back into the oar</label>
+
+                <br>
+
+                <input required type="checkbox" name="musica4" id="destroyer" value="Destroyer of the universe">
+                <label for="destroyer">Destroyer of the universe</label>
+
+                <br>
+
+                <input required type="checkbox" name="musica5" id="at" value="At dawn's first light">
+                <label for="At">At dawn's first light</label>
+
+                <br>
+
+                <input required type="checkbox" name="musica6" id="arrow" value="One thousand burning arrows">
+                <label for="arrow">One thousand burning arrows</label>
+
+
+                <br>
+
+                <h3>Qual seu gênero de rock favorito ?</h3>
+
+                <select required name="genero" id="genero">
+
+                    <option disabled selected value="">Selecione uma opção</option>
+
+                    <option value="Clássico">Clássico</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Hard rock">Hard rock</option>
+                    <option value="Grunge">Grunge</option>
+                    <option value="Indie">Indie rock</option>
+                    <option value="Progressivo">Rock progressivo</option>
+                    <option value="Punk">Punk</option>
+                    <option value="Outro">Outro</option>
+
+
+                </select>
+
+
+                <h3>Curte mais alguma banda ?</h3>
+
+                <input type="text" name="" placeholder="Digite o nome da banda" id="banda">
 
 
 
 
+            </fieldset>
+        </form>
 
-    </form>
+    </section>
 
     <br>
 
@@ -117,18 +146,6 @@
 
 
 
-
-
-    <!--Tags de links-->
-    <hr>
-    <a href="https://github.com/mikbhr" target="_blank">Github do criador</a>
-    <br>
-    <a href="paginaPrincipal/index.html">Voltar à página inicial</a>
-    <br>
-    <a href="formacaoBanda.html">Formação da banda</a>
-    <br>
-    <a href="criador.html">Sobre mim</a>
-    <hr>
 
 </body>
 
