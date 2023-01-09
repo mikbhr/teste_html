@@ -6,38 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <!--Formulário-->
-        <h1><img src="img/viking-helmet.png" alt="" width="20"> Formulário</h1>
+    <header class="cabecalho1">
+        <img src="img/amon-logo-site.png" alt="" >
+        </header>
 
-        <nav>
-            <!--Tags de links-->
-            <hr align="center" color="black" size="3">
+
+    <nav class="links" id="nav">
 
             <ul>
-                <li><a href="https://github.com/mikbhr" target="_blank">Github do criador</a></li>
+                <li><a href="https://github.com/mikbhr" target="_blank"><button> Github</button></a></li>
 
-                &nbsp;
 
-                <li><a href="paginaPrincipal/index.html">Voltar à página inicial</a></li>
 
-                &nbsp;
+                <li><a href="paginaPrincipal/index.html"><button>Página principal</button> </a>
+                </li>
 
-                <li><a href="formacaoBanda.html">Formação da banda</a></li>
+                <li>
+                    <a href="formacaoBanda.html"><button>Formação da banda</button> </a>
+                </li>
 
-                &nbsp;
-
-                <li><a href="criador.html">Sobre mim</a></li>
+                <li>
+                    <a href="criador.html"><button>Criador</button></a>
+                </li>
             </ul>
-            <hr align="center" color="black" size="3">
-        </nav>
 
-    </header>
 
-    <section>
+    </nav>
+
+    
+
+    <section class="form">
 
         <form id="form" action="">
 
@@ -140,9 +142,10 @@
     </section>
 
     <br>
-
+<section class="submit">
     <button type="submit" form="form" value="submit">Enviar respostas</button>
 
+</section>
 
 
 
