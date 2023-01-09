@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 body {
     margin: 0;
 
